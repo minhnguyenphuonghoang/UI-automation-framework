@@ -3,7 +3,7 @@ package appModules;
 import org.testng.Reporter;
 
 import pageObjects.BaseClass;
-import pageObjects.CheckOut_Page;
+import pageObjects.DELETE_CheckOut_Page;
 
 // This is called Modularization, when we club series of actions in to one Module
 // For Modular Driven Framework, please see http://www.toolsqa.com/modular-driven/ 
@@ -15,11 +15,11 @@ public class CheckOut_Action {
 		// This is to get the Product name on the Check Out page with using getText() method 
 		// CheckOut_Page.sProductName is a static variable and can be used anywhere with its class name
 		// Once some text is stored in this variable can be used later in any other class 
-     	CheckOut_Page.sProductName=CheckOut_Page.txt_ProductName().getText();
+     	DELETE_CheckOut_Page.sProductName=DELETE_CheckOut_Page.txt_ProductName().getText();
      	
      	// This is all about Verification checks, these does not stop your execution but simply report fail at the end
      	// This is to check that if the value in the variable sProductName is not null, then do this
-     	if(!"".equals(CheckOut_Page.sProductName)){
+     	if(!"".equals(DELETE_CheckOut_Page.sProductName)){
      		// Here I have put a verification check on the Product Name, if it is displayed my verification will pass
      		Reporter.log("Verification Passed for Product Name on Check Out page.");
      	}else{
@@ -31,8 +31,8 @@ public class CheckOut_Action {
      		BaseClass.bResult=false;
      	}
      	
-     	CheckOut_Page.sProductPrice= CheckOut_Page.txt_ProductPrice().getText();
-     	if(!"".equals(CheckOut_Page.sProductPrice)){
+     	DELETE_CheckOut_Page.sProductPrice= DELETE_CheckOut_Page.txt_ProductPrice().getText();
+     	if(!"".equals(DELETE_CheckOut_Page.sProductPrice)){
      		Reporter.log("Verification Passed for Product Price on Check Out page.");
      	}else{
      		Reporter.log("Verification Failed for Product Price on Check Out page.");
@@ -41,7 +41,7 @@ public class CheckOut_Action {
      	}
      	
      	// Clicking on the Continue button on the Check Out page
-     	CheckOut_Page.btn_Continue().click();
+     	DELETE_CheckOut_Page.btn_Continue().click();
 	 }
 
 }

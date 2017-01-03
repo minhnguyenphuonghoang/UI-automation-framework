@@ -8,6 +8,64 @@ import utility.Log;
         public LogIn_Page(WebDriver driver){
             	super(driver);
         }     
+        
+        public static WebElement emailAddressTextField(){
+        	try{
+	        	element = driver.findElement(By.xpath("//input[@id=\"Email\"]"));
+	            Log.info("Email Address text field is found on the Login Page");
+        	} catch (Exception e) {
+        		Log.error("Email Address text field is not found on the Login Page");
+           		throw(e);
+			}
+        	return element;
+        }
+        
+        public static WebElement passwordTextField(){
+        	try{
+	        	element = driver.findElement(By.xpath("//input[@id=\"Password\"]"));
+	            Log.info("Password text field is found on the Login Page");
+        	} catch (Exception e) {
+        		Log.error("Password text field is not found on the Login Page");
+           		throw(e);
+			}
+        	return element;
+        }
+        
+        public static WebElement LoginButton(){
+        	try{
+	        	element = driver.findElement(By.xpath(" //input[@value=\"Log in\"]"));
+	            Log.info("Login button is found on the Login Page");
+        	} catch (Exception e) {
+        		Log.error("Login button is not found on the Login Page");
+           		throw(e);
+			}
+        	return element;
+        }
+        
+        
+        
+        
+        
+     
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         public static WebElement txtbx_UserName() throws Exception{
         	try{
 	            element = driver.findElement(By.id("log"));

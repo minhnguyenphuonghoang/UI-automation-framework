@@ -3,7 +3,7 @@ package appModules;
 import org.testng.Reporter;
 
 import pageObjects.BaseClass;
-import pageObjects.CheckOut_Page;
+import pageObjects.DELETE_CheckOut_Page;
 import pageObjects.Confirmation_Page;
 
 // This is called Modularization, when we club series of actions in to one Module
@@ -15,7 +15,7 @@ public class Verification_Action {
 		
 		// This is to check that if the Product Name stored from Checkout & Confirmation page is same 
 		// These are static variables, see how easy is to use them in your test
-		if(CheckOut_Page.sProductName.equals(Confirmation_Page.sProductName)){
+		if(DELETE_CheckOut_Page.sProductName.equals(Confirmation_Page.sProductName)){
 			// Here I have put a verification check on the Product Name, if it is matched, my verification will pass
 			Reporter.log("Verification Passed for Product Name");
 			
@@ -28,7 +28,7 @@ public class Verification_Action {
 			BaseClass.bResult=false;
 		}
 		
-		if(CheckOut_Page.sProductPrice.equals(Confirmation_Page.sProductPrice)){
+		if(DELETE_CheckOut_Page.sProductPrice.equals(Confirmation_Page.sProductPrice)){
 			Reporter.log("Verification Passed for Product Price");
 		}else{
 			Reporter.log("Verification Failed for Product Price");

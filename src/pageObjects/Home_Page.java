@@ -10,7 +10,23 @@ import utility.Utils;
            
         public Home_Page(WebDriver driver){
             	super(driver);
-        }    
+        }
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         public static WebElement lnk_MyAccount() throws Exception{
             try{ 
 	        	 element = driver.findElement(By.xpath(".//*[@id='account']/a"));
@@ -21,6 +37,7 @@ import utility.Utils;
            		}
            	return element;
         }
+        
         public static WebElement lnk_LogOut() throws Exception{
             try{
 	        	element = driver.findElement(By.id("account_logout"));
@@ -72,7 +89,7 @@ import utility.Utils;
         			}
                    }
         		
-        		public static void iPhones() throws Exception{
+        		public static void iPhones(){
         			try{
 	        			mainElement = driver.findElement(By.linkText("Product Category"));
 	        			Log.info("Product category link is found under Top Navigation");
