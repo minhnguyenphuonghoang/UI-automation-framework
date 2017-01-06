@@ -37,7 +37,7 @@ import utility.Utils;
             LogIn_Page.passwordTextField().sendKeys(password);
             Log.info(password + " is entered in Password text box");
             
-            LogIn_Page.LoginButton().click();
+            LogIn_Page.loginButton().click();
             Log.info("Click action is performed on Submit button");
             
             
