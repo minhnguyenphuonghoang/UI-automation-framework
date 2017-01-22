@@ -17,10 +17,11 @@ import appModules.CheckOut_Action;
 import appModules.Confirmation_Action;
 import appModules.PaymentDetails_Action;
 import appModules.ProductSelect_Action;
+import appModules.Purchase_Action;
 import appModules.SignIn_Action;
 import appModules.Verification_Action;
 
-public class LogIn{
+public class Purchase{
 	public WebDriver driver;
 	private String sTestCaseName;
 	private int iTestCaseRow;
@@ -33,7 +34,7 @@ public class LogIn{
 		Log.startTestCase(sTestCaseName);
 		ExcelUtils.setExcelFile(new File(".").getCanonicalPath() + "/src/" + Constant.Path_TestData + Constant.File_TestData, "Sheet1");
 		iTestCaseRow = ExcelUtils.getRowContains(sTestCaseName, Constant.Col_TestCaseName);
-		driver = Utils.OpenBrowser(iTestCaseRow);
+		driver = Utils.OpenBrowser(iTestCaseRow, Constant.URL_PRODUCT);
 		new BaseClass(driver); 
 	}
   
@@ -42,7 +43,8 @@ public class LogIn{
 	public void main() throws Exception {
 		
 		try{  
-			SignIn_Action.Execute(iTestCaseRow);
+			Purchase_Action.Execute(iTestCaseRow);
+			
 			if(BaseClass.bResult==true){
 				ExcelUtils.setCellData("Pass", iTestCaseRow, Constant.Col_Result);
 			} else {

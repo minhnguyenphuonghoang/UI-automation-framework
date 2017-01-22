@@ -1,4 +1,5 @@
 package utility;
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 
@@ -48,7 +49,7 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
                             Cell.setCellValue(Result);
                         }
           // Constant variables Test Data path and Test Data file name
-                          FileOutputStream fileOut = new FileOutputStream(Constant.Path_TestData + Constant.File_TestData);
+                          FileOutputStream fileOut = new FileOutputStream(new File(".").getCanonicalPath() + "/src/" + Constant.Path_TestData + Constant.File_TestData);
                           ExcelWBook.write(fileOut);
                           fileOut.flush();
                         fileOut.close();

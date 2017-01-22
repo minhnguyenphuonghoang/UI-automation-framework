@@ -9,31 +9,94 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class Utils {
-		public static WebDriver driver = null;
+	public static WebDriver driver = null;
+	
 	public static WebDriver OpenBrowser(int iTestCaseRow) throws Exception{
 		String sBrowserName;
 		try{
-		sBrowserName = ExcelUtils.getCellData(iTestCaseRow, Constant.Col_Browser);
-		if(sBrowserName.equals("Mozilla")){
-			driver = new FirefoxDriver();
-			//driver = new 
-			Log.info("New driver instantiated");
-		    driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		    Log.info("Implicit wait applied on the driver for 10 seconds");
-		    driver.get(Constant.URL);
-		    Log.info("Web application launched successfully");
+			sBrowserName = ExcelUtils.getCellData(iTestCaseRow, Constant.Col_Browser);
+			
+			switch (sBrowserName) {
+			case "ff":
+				driver = new FirefoxDriver();
+				//driver = new 
+				Log.info("New driver instantiated");
+			    driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+			    Log.info("Implicit wait applied on the driver for 10 seconds");
+			    driver.get(Constant.URL);
+			    Log.info("Web application launched successfully");
+				break;
+			
+			case "gc":
+				driver = new ChromeDriver();
+				//driver = new 
+				Log.info("New driver instantiated");
+			    driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+			    Log.info("Implicit wait applied on the driver for 10 seconds");
+			    driver.manage().window().maximize();
+			    Log.info("Maximize browser windows");
+			    driver.get(Constant.URL);
+			    Log.info("Web application launched successfully");
+				break;
+				
+			default:
+				Log.info("Browser: " + sBrowserName + " is uknown!");
+				break;
 			}
+			
 		}catch (Exception e){
 			Log.error("Class Utils | Method OpenBrowser | Exception desc : "+e.getMessage());
 		}
 		return driver;
 	}
+	
+	
+	public static WebDriver OpenBrowser(int iTestCaseRow, String browser_url) throws Exception{
+		String sBrowserName;
+		try{
+			sBrowserName = ExcelUtils.getCellData(iTestCaseRow, Constant.Col_Browser);
+			
+			switch (sBrowserName) {
+			case "ff":
+				driver = new FirefoxDriver();
+				//driver = new 
+				Log.info("New driver instantiated");
+			    driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+			    Log.info("Implicit wait applied on the driver for 10 seconds");
+			    driver.get(browser_url);
+			    Log.info("Web application launched successfully");
+				break;
+			
+			case "gc":
+				driver = new ChromeDriver();
+				//driver = new 
+				Log.info("New driver instantiated");
+			    driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+			    Log.info("Implicit wait applied on the driver for 10 seconds");
+			    driver.manage().window().maximize();
+			    Log.info("Maximize browser windows");
+			    driver.get(browser_url);
+			    Log.info("Web application launched successfully");
+				break;
+				
+			default:
+				Log.info("Browser: " + sBrowserName + " is uknown!");
+				break;
+			}
+			
+		}catch (Exception e){
+			Log.error("Class Utils | Method OpenBrowser | Exception desc : "+e.getMessage());
+		}
+		return driver;
+	}
+	
 	
 	public static String getTestCaseName(String sTestCase)throws Exception{
 		String value = sTestCase;
@@ -43,11 +106,15 @@ public class Utils {
 			posi = value.lastIndexOf(".");	
 			value = value.substring(posi + 1);
 			return value;
-				}catch (Exception e){
+		}catch (Exception e){
 			Log.error("Class Utils | Method getTestCaseName | Exception desc : "+e.getMessage());
 			throw (e);
-					}
-			}
+		}
+	}
+	
+	
+	
+	
 	
 	 public static void mouseHoverAction(WebElement mainElement, String subElement){
 		
@@ -79,15 +146,13 @@ public class Utils {
 	     wait.until(ExpectedConditions.elementToBeClickable(element));
 	 	}
 		
-	 public static void takeScreenshot(WebDriver driver, String sTestCaseName) throws Exception{
-			try{
-				File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-				FileUtils.copyFile(scrFile, new File(Constant.Path_ScreenShot + sTestCaseName +".jpg"));	
+	public static void takeScreenshot(WebDriver driver, String sTestCaseName) throws Exception{
+		try{
+			File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+			FileUtils.copyFile(scrFile, new File(new File(".").getCanonicalPath() + "/src/" + Constant.Path_ScreenShot + sTestCaseName +".jpg"));	
 			} catch (Exception e){
 				Log.error("Class Utils | Method takeScreenshot | Exception occured while capturing ScreenShot : "+e.getMessage());
 				throw new Exception();
-			}
 		}
-	 
-	 
 	}
+}

@@ -131,3 +131,225 @@ Driver info: driver.version: FirefoxDriver
 2017-01-02 05:20:51,852 INFO  [Log] X 
 2017-01-02 05:20:51,852 INFO  [Log] X 
 2017-01-02 05:20:51,852 INFO  [Log] X 
+2017-01-23 00:37:10,502 INFO  [Log] **************************************************************************************** 
+2017-01-23 00:37:10,515 INFO  [Log] **************************************************************************************** 
+2017-01-23 00:37:10,515 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 LogIn       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-01-23 00:37:10,515 INFO  [Log] **************************************************************************************** 
+2017-01-23 00:37:10,515 INFO  [Log] **************************************************************************************** 
+2017-01-23 00:38:52,105 INFO  [Log] **************************************************************************************** 
+2017-01-23 00:38:52,105 INFO  [Log] **************************************************************************************** 
+2017-01-23 00:38:52,105 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 LogIn       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-01-23 00:38:52,105 INFO  [Log] **************************************************************************************** 
+2017-01-23 00:38:52,105 INFO  [Log] **************************************************************************************** 
+2017-01-23 00:40:18,414 INFO  [Log] **************************************************************************************** 
+2017-01-23 00:40:18,414 INFO  [Log] **************************************************************************************** 
+2017-01-23 00:40:18,414 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 LogIn       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-01-23 00:40:18,414 INFO  [Log] **************************************************************************************** 
+2017-01-23 00:40:18,414 INFO  [Log] **************************************************************************************** 
+2017-01-23 00:41:41,631 INFO  [Log] **************************************************************************************** 
+2017-01-23 00:41:41,632 INFO  [Log] **************************************************************************************** 
+2017-01-23 00:41:41,632 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 LogIn       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-01-23 00:41:41,632 INFO  [Log] **************************************************************************************** 
+2017-01-23 00:41:41,632 INFO  [Log] **************************************************************************************** 
+2017-01-23 00:44:12,441 INFO  [Log] **************************************************************************************** 
+2017-01-23 00:44:12,442 INFO  [Log] **************************************************************************************** 
+2017-01-23 00:44:12,442 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 LogIn       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-01-23 00:44:12,442 INFO  [Log] **************************************************************************************** 
+2017-01-23 00:44:12,442 INFO  [Log] **************************************************************************************** 
+2017-01-23 00:44:13,064 INFO  [Log] Excel sheet opened 
+2017-01-23 00:44:13,064 INFO  [Log] Total number of Row used return as < 2 >. 
+2017-01-23 00:44:15,096 INFO  [Log] New driver instantiated 
+2017-01-23 00:44:15,103 INFO  [Log] Implicit wait applied on the driver for 10 seconds 
+2017-01-23 00:44:17,941 INFO  [Log] Web application launched successfully 
+2017-01-23 00:44:17,988 INFO  [Log] Login Link is found on the Home Page 
+2017-01-23 00:44:18,307 INFO  [Log] Click action is performed on Login link 
+2017-01-23 00:44:21,334 INFO  [Log] Email Address text field is found on the Login Page 
+2017-01-23 00:44:21,374 INFO  [Log] testuser_1 is entered in UserName text box 
+2017-01-23 00:44:21,390 INFO  [Log] Password text field is found on the Login Page 
+2017-01-23 00:44:21,446 INFO  [Log] Test@123 is entered in Password text box 
+2017-01-23 00:44:21,457 INFO  [Log] Login button is found on the Login Page 
+2017-01-23 00:44:21,490 INFO  [Log] Click action is performed on Login button 
+2017-01-23 00:44:24,498 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-01-23 00:44:24,498 INFO  [Log] X 
+2017-01-23 00:44:24,498 INFO  [Log] X 
+2017-01-23 00:44:24,498 INFO  [Log] X 
+2017-01-23 00:44:24,498 INFO  [Log] X 
+2017-01-23 00:46:47,206 INFO  [Log] **************************************************************************************** 
+2017-01-23 00:46:47,207 INFO  [Log] **************************************************************************************** 
+2017-01-23 00:46:47,207 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 LogIn       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-01-23 00:46:47,207 INFO  [Log] **************************************************************************************** 
+2017-01-23 00:46:47,207 INFO  [Log] **************************************************************************************** 
+2017-01-23 00:46:47,601 INFO  [Log] Excel sheet opened 
+2017-01-23 00:46:47,602 INFO  [Log] Total number of Row used return as < 2 >. 
+2017-01-23 00:46:48,662 INFO  [Log] New driver instantiated 
+2017-01-23 00:46:48,666 INFO  [Log] Implicit wait applied on the driver for 10 seconds 
+2017-01-23 00:46:52,181 INFO  [Log] Web application launched successfully 
+2017-01-23 00:46:52,209 INFO  [Log] Login Link is found on the Home Page 
+2017-01-23 00:46:52,544 INFO  [Log] Click action is performed on Login link 
+2017-01-23 00:46:55,574 INFO  [Log] Email Address text field is found on the Login Page 
+2017-01-23 00:46:55,634 INFO  [Log] auto.test@yopmail.com is entered in UserName text box 
+2017-01-23 00:46:55,650 INFO  [Log] Password text field is found on the Login Page 
+2017-01-23 00:46:55,697 INFO  [Log]  is entered in Password text box 
+2017-01-23 00:46:55,710 INFO  [Log] Login button is found on the Login Page 
+2017-01-23 00:46:56,554 INFO  [Log] Click action is performed on Login button 
+2017-01-23 00:46:59,563 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-01-23 00:46:59,563 INFO  [Log] X 
+2017-01-23 00:46:59,563 INFO  [Log] X 
+2017-01-23 00:46:59,563 INFO  [Log] X 
+2017-01-23 00:46:59,563 INFO  [Log] X 
+2017-01-23 00:47:54,906 INFO  [Log] **************************************************************************************** 
+2017-01-23 00:47:54,906 INFO  [Log] **************************************************************************************** 
+2017-01-23 00:47:54,906 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 LogIn       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-01-23 00:47:54,906 INFO  [Log] **************************************************************************************** 
+2017-01-23 00:47:54,906 INFO  [Log] **************************************************************************************** 
+2017-01-23 00:47:55,233 INFO  [Log] Excel sheet opened 
+2017-01-23 00:47:55,233 INFO  [Log] Total number of Row used return as < 2 >. 
+2017-01-23 00:47:56,231 INFO  [Log] New driver instantiated 
+2017-01-23 00:47:56,235 INFO  [Log] Implicit wait applied on the driver for 10 seconds 
+2017-01-23 00:47:58,033 INFO  [Log] Web application launched successfully 
+2017-01-23 00:47:58,061 INFO  [Log] Login Link is found on the Home Page 
+2017-01-23 00:47:58,364 INFO  [Log] Click action is performed on Login link 
+2017-01-23 00:48:01,392 INFO  [Log] Email Address text field is found on the Login Page 
+2017-01-23 00:48:01,434 INFO  [Log] auto.test@yopmail.com is entered in UserName text box 
+2017-01-23 00:48:01,456 INFO  [Log] Password text field is found on the Login Page 
+2017-01-23 00:48:01,499 INFO  [Log]  is entered in Password text box 
+2017-01-23 00:48:01,511 INFO  [Log] Login button is found on the Login Page 
+2017-01-23 00:48:01,839 INFO  [Log] Click action is performed on Login button 
+2017-01-23 00:48:04,847 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-01-23 00:48:04,847 INFO  [Log] X 
+2017-01-23 00:48:04,847 INFO  [Log] X 
+2017-01-23 00:48:04,847 INFO  [Log] X 
+2017-01-23 00:48:04,848 INFO  [Log] X 
+2017-01-23 00:49:25,601 INFO  [Log] **************************************************************************************** 
+2017-01-23 00:49:25,602 INFO  [Log] **************************************************************************************** 
+2017-01-23 00:49:25,602 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 LogIn       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-01-23 00:49:25,602 INFO  [Log] **************************************************************************************** 
+2017-01-23 00:49:25,602 INFO  [Log] **************************************************************************************** 
+2017-01-23 00:49:25,934 INFO  [Log] Excel sheet opened 
+2017-01-23 00:49:25,934 INFO  [Log] Total number of Row used return as < 2 >. 
+2017-01-23 00:49:26,937 INFO  [Log] New driver instantiated 
+2017-01-23 00:49:26,941 INFO  [Log] Implicit wait applied on the driver for 10 seconds 
+2017-01-23 00:49:28,504 INFO  [Log] Web application launched successfully 
+2017-01-23 00:49:28,533 INFO  [Log] Login Link is found on the Home Page 
+2017-01-23 00:49:28,842 INFO  [Log] Click action is performed on Login link 
+2017-01-23 00:49:31,868 INFO  [Log] Email Address text field is found on the Login Page 
+2017-01-23 00:49:31,917 INFO  [Log] auto.test@yopmail.com is entered in UserName text box 
+2017-01-23 00:49:31,934 INFO  [Log] Password text field is found on the Login Page 
+2017-01-23 00:49:31,983 INFO  [Log] 123456789 is entered in Password text box 
+2017-01-23 00:49:31,996 INFO  [Log] Login button is found on the Login Page 
+2017-01-23 00:49:32,473 INFO  [Log] Click action is performed on Login button 
+2017-01-23 00:49:35,611 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-01-23 00:49:35,611 INFO  [Log] X 
+2017-01-23 00:49:35,611 INFO  [Log] X 
+2017-01-23 00:49:35,611 INFO  [Log] X 
+2017-01-23 00:49:35,611 INFO  [Log] X 
+2017-01-23 01:11:57,208 INFO  [Log] **************************************************************************************** 
+2017-01-23 01:11:57,209 INFO  [Log] **************************************************************************************** 
+2017-01-23 01:11:57,209 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Purchase       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-01-23 01:11:57,209 INFO  [Log] **************************************************************************************** 
+2017-01-23 01:11:57,209 INFO  [Log] **************************************************************************************** 
+2017-01-23 01:11:57,612 INFO  [Log] Excel sheet opened 
+2017-01-23 01:11:57,612 INFO  [Log] Total number of Row used return as < 2 >. 
+2017-01-23 01:11:58,676 INFO  [Log] New driver instantiated 
+2017-01-23 01:11:58,681 INFO  [Log] Implicit wait applied on the driver for 10 seconds 
+2017-01-23 01:11:58,815 INFO  [Log] Maximize browser windows 
+2017-01-23 01:12:01,082 INFO  [Log] Web application launched successfully 
+2017-01-23 01:12:01,113 INFO  [Log] ADD TO CART button is found on the Product Page 
+2017-01-23 01:12:01,147 INFO  [Log] Click action is performed on purchase button 
+2017-01-23 01:12:02,159 INFO  [Log] Shopping cart link is found on the Product Page 
+2017-01-23 01:12:02,528 ERROR [Log] unknown error: Element is not clickable at point (1089, 22). Other element would receive the click: <p class="content">...</p>
+  (Session info: chrome=55.0.2883.87)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 49 milliseconds
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'FS-AND-DKT01', ip: '169.254.137.169', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed), userDataDir=C:\Users\ADMINI~1.FS-\AppData\Local\Temp\scoped_dir1432_24416}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=55.0.2883.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: fb632e978b2b313a55cc1a81f19fee2c 
+2017-01-23 01:12:02,533 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-01-23 01:12:02,533 INFO  [Log] X 
+2017-01-23 01:12:02,533 INFO  [Log] X 
+2017-01-23 01:12:02,533 INFO  [Log] X 
+2017-01-23 01:12:02,533 INFO  [Log] X 
+2017-01-23 01:14:39,325 INFO  [Log] **************************************************************************************** 
+2017-01-23 01:14:39,325 INFO  [Log] **************************************************************************************** 
+2017-01-23 01:14:39,325 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Purchase       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-01-23 01:14:39,325 INFO  [Log] **************************************************************************************** 
+2017-01-23 01:14:39,325 INFO  [Log] **************************************************************************************** 
+2017-01-23 01:14:39,659 INFO  [Log] Excel sheet opened 
+2017-01-23 01:14:39,659 INFO  [Log] Total number of Row used return as < 2 >. 
+2017-01-23 01:14:40,681 INFO  [Log] New driver instantiated 
+2017-01-23 01:14:40,685 INFO  [Log] Implicit wait applied on the driver for 10 seconds 
+2017-01-23 01:14:40,818 INFO  [Log] Maximize browser windows 
+2017-01-23 01:14:42,506 INFO  [Log] Web application launched successfully 
+2017-01-23 01:14:42,536 INFO  [Log] ADD TO CART button is found on the Product Page 
+2017-01-23 01:14:42,563 INFO  [Log] Click action is performed on purchase button 
+2017-01-23 01:14:43,590 INFO  [Log] Shopping cart link is found on the notification of the Product Page 
+2017-01-23 01:14:44,047 INFO  [Log] Click action is performed on shopping cart button 
+2017-01-23 01:14:47,083 INFO  [Log] Term of Service check box is found on the Cart Page 
+2017-01-23 01:14:47,380 ERROR [Log] unknown error: Element is not clickable at point (745, 655). Other element would receive the click: <div class="checkout-buttons">...</div>
+  (Session info: chrome=55.0.2883.87)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 41 milliseconds
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'FS-AND-DKT01', ip: '169.254.137.169', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed), userDataDir=C:\Users\ADMINI~1.FS-\AppData\Local\Temp\scoped_dir6040_3911}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=55.0.2883.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d5c4e606e86c959550e33244acaac633 
+2017-01-23 01:14:47,383 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-01-23 01:14:47,383 INFO  [Log] X 
+2017-01-23 01:14:47,383 INFO  [Log] X 
+2017-01-23 01:14:47,383 INFO  [Log] X 
+2017-01-23 01:14:47,383 INFO  [Log] X 
+2017-01-23 01:19:16,678 INFO  [Log] **************************************************************************************** 
+2017-01-23 01:19:16,678 INFO  [Log] **************************************************************************************** 
+2017-01-23 01:19:16,678 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Purchase       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-01-23 01:19:16,678 INFO  [Log] **************************************************************************************** 
+2017-01-23 01:19:16,678 INFO  [Log] **************************************************************************************** 
+2017-01-23 01:19:17,005 INFO  [Log] Excel sheet opened 
+2017-01-23 01:19:17,005 INFO  [Log] Total number of Row used return as < 2 >. 
+2017-01-23 01:19:18,016 INFO  [Log] New driver instantiated 
+2017-01-23 01:19:18,020 INFO  [Log] Implicit wait applied on the driver for 10 seconds 
+2017-01-23 01:19:18,152 INFO  [Log] Maximize browser windows 
+2017-01-23 01:19:20,007 INFO  [Log] Web application launched successfully 
+2017-01-23 01:19:20,041 INFO  [Log] ADD TO CART button is found on the Product Page 
+2017-01-23 01:19:20,070 INFO  [Log] Click action is performed on purchase button 
+2017-01-23 01:19:21,096 INFO  [Log] Shopping cart link is found on the notification of the Product Page 
+2017-01-23 01:19:21,580 INFO  [Log] Click action is performed on shopping cart button 
+2017-01-23 01:19:24,608 INFO  [Log] Term of Service check box is found on the Cart Page 
+2017-01-23 01:19:24,636 INFO  [Log] Check action is performed on termOfService checkbox 
+2017-01-23 01:19:24,650 INFO  [Log] Checkout button is found on the Cart Page 
+2017-01-23 01:19:24,674 INFO  [Log] Click action is performed on checkout button 
+2017-01-23 01:19:27,686 INFO  [Log] Checkout button is found on the Cart Page 
+2017-01-23 01:19:27,707 INFO  [Log] Click action is performed on Checkout As Guest button 
+2017-01-23 01:19:30,806 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-01-23 01:19:30,806 INFO  [Log] X 
+2017-01-23 01:19:30,806 INFO  [Log] X 
+2017-01-23 01:19:30,806 INFO  [Log] X 
+2017-01-23 01:19:30,806 INFO  [Log] X 
+2017-01-23 01:20:49,553 INFO  [Log] **************************************************************************************** 
+2017-01-23 01:20:49,554 INFO  [Log] **************************************************************************************** 
+2017-01-23 01:20:49,554 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Purchase       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-01-23 01:20:49,554 INFO  [Log] **************************************************************************************** 
+2017-01-23 01:20:49,554 INFO  [Log] **************************************************************************************** 
+2017-01-23 01:20:49,885 INFO  [Log] Excel sheet opened 
+2017-01-23 01:20:49,885 INFO  [Log] Total number of Row used return as < 2 >. 
+2017-01-23 01:20:50,905 INFO  [Log] New driver instantiated 
+2017-01-23 01:20:50,909 INFO  [Log] Implicit wait applied on the driver for 10 seconds 
+2017-01-23 01:20:51,039 INFO  [Log] Maximize browser windows 
+2017-01-23 01:20:53,253 INFO  [Log] Web application launched successfully 
+2017-01-23 01:20:53,274 INFO  [Log] ADD TO CART button is found on the Product Page 
+2017-01-23 01:20:53,301 INFO  [Log] Click action is performed on purchase button 
+2017-01-23 01:20:54,327 INFO  [Log] Shopping cart link is found on the notification of the Product Page 
+2017-01-23 01:20:54,786 INFO  [Log] Click action is performed on shopping cart button 
+2017-01-23 01:20:57,812 INFO  [Log] Term of Service check box is found on the Cart Page 
+2017-01-23 01:20:57,843 INFO  [Log] Check action is performed on termOfService checkbox 
+2017-01-23 01:20:57,859 INFO  [Log] Checkout button is found on the Cart Page 
+2017-01-23 01:20:57,886 INFO  [Log] Click action is performed on checkout button 
+2017-01-23 01:21:00,915 INFO  [Log] Checkout As Guest button is found on the Check Out Page 
+2017-01-23 01:21:01,558 INFO  [Log] Click action is performed on Checkout As Guest button 
+2017-01-23 01:21:04,660 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-01-23 01:21:04,660 INFO  [Log] X 
+2017-01-23 01:21:04,660 INFO  [Log] X 
+2017-01-23 01:21:04,660 INFO  [Log] X 
+2017-01-23 01:21:04,660 INFO  [Log] X 
